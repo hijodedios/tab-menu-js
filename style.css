@@ -19,6 +19,7 @@ button{
 }
 .menu-tab{
     outline: 1px solid green;
+    width: 100%;
 }
 .menu-tab .tabs{
     display: flex;
@@ -31,10 +32,10 @@ button{
     background: inherit;
     color: inherit;
     text-transform: uppercase;
+    transition: all .8s;
 }
 .menu-tab .tabs .tab:hover{
-    background: green;
-    color: black;
+    color: yellow !important;
 }
 .menu-tab .tabs-container{
     padding: 1rem;
@@ -48,4 +49,8 @@ button{
 }
 .menu-tab .tabs-container .tab-option{
     pos
+}
+
+.none{
+    display: none;
 }
