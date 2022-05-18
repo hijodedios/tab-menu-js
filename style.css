@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    color:green;
+}
+button{
+    border: none;
+    padding: 1rem;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.menu-tab{
+    outline: 1px solid green;
+}
+.menu-tab .tabs{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-bottom: 1px solid green;
+}
+.menu-tab .tabs .tab{
+    flex-grow: 1;
+    background: inherit;
+    color: inherit;
+    text-transform: uppercase;
+}
+.menu-tab .tabs .tab:hover{
+    background: green;
+    color: black;
+}
+.menu-tab .tabs-container{
+    padding: 1rem;
+}
+.menu-tab .tabs .tab.active{
+    background: green;
+    color: black;
+}
+.menu-tab .tabs-container{
+    position: relative;
+}
+.menu-tab .tabs-container .tab-option{
+    pos
+}
